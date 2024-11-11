@@ -4,10 +4,7 @@ import Link from "next/link";
 function Hero() {
   return (
     <div
-      className="relative bg-cover bg-center bg-[url('/assets/images/banner.jpg')] bg-opacity-60 flex flex-col justify-center items-center px-8 sm:px-4 bg-blend-overlay"
-      style={{
-        height: "calc(100vh - 60px)",
-      }}
+      className="relative bg-cover bg-center bg-[url('/assets/images/banner.jpg')] bg-opacity-60 flex flex-col justify-center items-center px-8 sm:px-4 bg-blend-overlay sm:h-[calc(100vh-60px)] h-[calc(80vh-60px)]"
     >
       <h2 className="text-white text-center text-[60px] font-semibold tracking-[8px] leading-none uppercase sm:text-[40px] sm:tracking-[4px] md:text-[50px] md:tracking-[5px] lg:text-[60px] lg:tracking-[6px]">
         Velvet Rose
