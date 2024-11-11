@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Logo and Tagline */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold text-gray-100">
-              Velvet Rose Curtains
+              Velvet Rose Curtain
             </h2>
             <p className="mt-2 text-gray-400">
               Adding elegance to every room with custom-made solutions.
@@ -75,7 +75,7 @@ export default function Footer() {
         {/* Bottom Line and Copyright */}
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-gray-500">
           <p>
-            &copy; {new Date().getFullYear()} Velvet Rose Curtains. All rights
+            &copy; {new Date().getFullYear()} Velvet Rose Curtain. All rights
             reserved.
           </p>
         </div>

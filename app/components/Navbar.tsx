@@ -15,7 +15,7 @@ export default function Navbar() {
           href="/"
           className="text-2xl font-bold text-white hover:text-gray-200"
         > 
-          <span className="text-gray-200">Velvet Rose Curatins</span>
+          <span className="text-gray-200">Velvet Rose Curtain</span>
           <span className="text-rose-600">.</span>
         </Link>
 
