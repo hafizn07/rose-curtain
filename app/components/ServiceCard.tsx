@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface ServiceCardProps {
   title: string;
@@ -29,13 +30,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           {description}
         </p>
       </div>
-      <div className="px-4 pb-4 pt-0 mt-2">
-        <button
+      <div className="px-4 pb-6 pt-0 mt-2">
+        <Link
+          href="#contact"
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          type="button"
         >
           {label}
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -46,10 +46,10 @@ export default function Footer() {
           <div className="flex flex-col text-center md:text-left space-y-2">
             <h3 className="text-lg font-semibold text-gray-300">Contact Us</h3>
             <p className="flex items-center justify-center md:justify-start text-gray-400">
-              <FaMapMarkerAlt className="mr-2" /> 123 Main Street, City, Country
+              <FaMapMarkerAlt className="mr-2" /> Behind Etisalat Khalidiya, Abu Dhabi, UAE
             </p>
             <p className="flex items-center justify-center md:justify-start text-gray-400">
-              <FaPhoneAlt className="mr-2" /> +1 234 567 890
+              <FaPhoneAlt className="mr-2" /> +971 56 123 0386 <br />+971 56 358 2352
             </p>
             <p className="flex items-center justify-center md:justify-start text-gray-400">
               <FaEnvelope className="mr-2" /> contact@velvetrose.com

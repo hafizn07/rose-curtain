@@ -1,8 +1,13 @@
+"use client";
+
 import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-12 px-6 bg-gradient-to-r from-gray-50 via-white to-gray-50 text-center">
+    <section
+      id="contact"
+      className="py-12 px-6 bg-gradient-to-r from-gray-50 via-white to-gray-50 text-center"
+    >
       <div className="max-w-screen-lg mx-auto">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6">
           Get in Touch
@@ -22,9 +27,10 @@ export default function Contact() {
               <FaMapMarkerAlt className="text-red-500 mt-1 mr-3" size={20} />
               <div>
                 <p className="text-gray-700 font-medium">Our Address</p>
-                <p className="text-gray-600">Curtain Shop</p>
-                <p className="text-gray-600">123 Main Street, City, Country</p>
-                <p className="text-gray-600">Postal Code: 123456</p>
+                <p className="text-gray-600">Velvet Rose Curtain</p>
+                <p className="text-gray-600">
+                  Behind Etisalat Khalidiya, Abu Dhabi, UAE
+                </p>
               </div>
             </div>
 
@@ -32,12 +38,16 @@ export default function Contact() {
               <FaPhone className="text-green-500 mt-1 mr-3" size={20} />
               <div>
                 <p className="text-gray-700 font-medium">Contact Number</p>
-                <p className="text-gray-600">+1 234 567 890</p>
+                <p className="text-gray-600">+971 56 123 0386</p>
+                <p className="text-gray-600">+971 56 358 2352</p>
               </div>
             </div>
 
             {/* Call-to-Action Button */}
-            <button className="mt-6 px-6 py-2 bg-black text-white rounded-lg shadow hover:bg-slate-700 transition-all">
+            <button
+              className="mt-6 px-6 py-2 bg-black text-white rounded-lg shadow hover:bg-slate-700 transition-all"
+              onClick={() => (window.location.href = "tel:+971561230386")}
+            >
               Contact Us
             </button>
           </div>

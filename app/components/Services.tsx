@@ -14,7 +14,7 @@ const services = [
     imageUrl: "/assets/images/tailoring.jpg",
   },
   {
-    title: "Retail Sale of Curtains & Upholstery Cloths",
+    title: "Curtains & Upholstery Retail",
     description:
       "Explore our premium selection of curtains and upholstery fabrics, crafted to add sophistication and comfort to your home. Our fabrics come in a variety of textures and colors, providing durability and beauty that perfectly match any interior decor. We help you find the ideal fabric for your needs.",
     imageUrl: "/assets/images/upholstery.jpeg",
