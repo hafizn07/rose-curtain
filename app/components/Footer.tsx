@@ -46,10 +46,12 @@ export default function Footer() {
           <div className="flex flex-col text-center md:text-left space-y-2">
             <h3 className="text-lg font-semibold text-gray-300">Contact Us</h3>
             <p className="flex items-center justify-center md:justify-start text-gray-400">
-              <FaMapMarkerAlt className="mr-2" /> Behind Etisalat Khalidiya, Abu Dhabi, UAE
+              <FaMapMarkerAlt className="mr-2" /> Behind Etisalat Khalidiya, Abu
+              Dhabi, UAE
             </p>
             <p className="flex items-center justify-center md:justify-start text-gray-400">
-              <FaPhoneAlt className="mr-2" /> +971 56 123 0386 <br />+971 56 358 2352
+              <FaPhoneAlt className="mr-2" /> +971 56 123 0386 <br />
+              +971 56 358 2352
             </p>
             <p className="flex items-center justify-center md:justify-start text-gray-400">
               <FaEnvelope className="mr-2" /> contact@velvetrose.com
@@ -62,10 +64,20 @@ export default function Footer() {
               Follow Us
             </h3>
             <div className="flex space-x-4 justify-center md:justify-start">
-              <Link href="#" className="text-gray-400 hover:text-gray-100">
+              <Link
+                href="https://www.facebook.com/share/173q7c83Eh/?mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-gray-100"
+              >
                 <FaFacebookF />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-gray-100">
+              <Link
+                href="https://www.instagram.com/abdulbasheerkunnil/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-gray-100"
+              >
                 <FaInstagram />
               </Link>
             </div>
